@@ -1,0 +1,34 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image:linear-gradient(120deg,#f6d365,#fda085);
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+form{
+  font-weight: bold;
+}
+
+.card{
+  border-radius: 10px;
+}
+
+.card:hover{
+  cursor: pointer;
+}
